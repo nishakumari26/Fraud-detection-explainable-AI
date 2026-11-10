@@ -1,0 +1,26 @@
+venv/
+__pycache__/
+*.pyc
+
+data/raw/
+data/processed/
+artifacts/
+plots/
+
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
+
+# Environment variables (contains API keys)
+.env
+
+# SQLite database
+*.db
+
+# Power BI exports (generated files)
+powerbi/
+
+# IDE
+.vscode/
+.idea/
